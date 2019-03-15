@@ -1,4 +1,3 @@
 " Color"
-colorscheme desert
-set number
+colorscheme industry
 set relativenumber
