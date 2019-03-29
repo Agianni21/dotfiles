@@ -16,6 +16,7 @@ Plugin 'VundleVim/Vundle.vim'
 "<--- Plugins --->"
 Plugin 'scrooloose/nerdtree'
 Plugin 'morhetz/gruvbox'
+Plugin 'vim-airline/vim-airline'
 "<---         --->"
 
 " All of your Plugins must be added before the following line
