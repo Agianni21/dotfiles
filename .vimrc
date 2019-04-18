@@ -1,4 +1,5 @@
-"Set to bash so it works nicely with Vundle (I like to use Fish shell)"
+"Set to bash so it works nicely with Vundle (I like to use Fish shell
+
 set shell=/bin/bash
 
 set nocompatible              " be iMproved, required
@@ -17,6 +18,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'morhetz/gruvbox'
 Plugin 'vim-airline/vim-airline'
+Plugin 'Yggdroot/indentLine'
 "<---         --->"
 
 " All of your Plugins must be added before the following line
@@ -51,3 +53,11 @@ noremap H ^
 noremap L $
 noremap ^ H
 noremap $ L
+
+" Set visible whitespaces
+set list
+set lcs=tab:>-,eol:»
+
+" Indent line plugin config (TAB inserts 4 spaces, show | every 4 spaces)
+let g:indentLine_char_list = "|"
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
