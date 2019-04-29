@@ -16,7 +16,6 @@ Plugin 'VundleVim/Vundle.vim'
 
 "<--- Plugins --->"
 Plugin 'scrooloose/nerdtree'
-Plugin 'morhetz/gruvbox'
 Plugin 'vim-airline/vim-airline'
 Plugin 'Yggdroot/indentLine'
 "<---         --->"
@@ -40,13 +39,11 @@ filetype plugin indent on    " required
 filetype on
 
 "Colorscheme"
-colorscheme gruvbox
 set background=dark
-let g:gruvbox_contrast_dark = 'hard'
 
-
-"Relative number"
+"Use relative numbers and line numbers"
 set relativenumber
+set number
 
 "Use H and L to go to start and end of the line, respectively"
 noremap H ^
