@@ -1,14 +1,10 @@
 #!/usr/bin/env bash
 # Script to setup my dotfiles in a Linux machine
 
-work_dir="$(pwd)"
+# TODO
+# + Check if nvim is already the default editor
 
-# Install neovim
-if ! type nvim &> /dev/null; then
-    sudo add-apt-repository ppa:neovim-ppa/stable
-    sudo apt-get update
-    sudo apt-get install neovim
-fi
+work_dir="$(pwd)"
 
 # Set nvim as default editor
 # For bash

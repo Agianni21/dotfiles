@@ -3,7 +3,7 @@
 set shell=/bin/bash
 
 set nocompatible              " be iMproved, required
-filetype off                  " required
+filetype off                  " required to setup plugins
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -16,7 +16,9 @@ Plugin 'VundleVim/Vundle.vim'
 
 "<--- Plugins --->"
 Plugin 'scrooloose/nerdtree'
+Plugin 'ayu-theme/ayu-vim'
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'Yggdroot/indentLine'
 "<---         --->"
 
@@ -39,7 +41,10 @@ filetype plugin indent on    " required
 filetype on
 
 "Colorscheme"
-set background=dark
+set termguicolors
+let ayucolor = "mirage"
+colorscheme ayu
+autocmd VimEnter * AirlineTheme ayu_mirage
 
 "Use relative numbers and line numbers"
 set relativenumber
@@ -51,6 +56,12 @@ noremap L $
 noremap ^ H
 noremap $ L
 
+"Use <CTRL-ARROW> to switch windows
+noremap <C-Left> <C-W><Left>
+noremap <C-Right> <C-W><Right>
+noremap <C-Up> <C-W><Up>
+noremap <C-Down> <C-W><Down>
+
 " Set visible whitespaces
 set list
 set lcs=tab:>-,eol:»
@@ -58,3 +69,6 @@ set lcs=tab:>-,eol:»
 " Indent line plugin config (TAB inserts 4 spaces, show | every 4 spaces)
 let g:indentLine_char_list = "|"
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+
+"Set a line in line where cursor is
+set cursorline
