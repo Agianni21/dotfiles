@@ -42,7 +42,7 @@ filetype on
 
 "Colorscheme"
 set termguicolors
-let ayucolor = "mirage"
+let ayucolor="mirage"
 colorscheme ayu
 autocmd VimEnter * AirlineTheme ayu_mirage
 
