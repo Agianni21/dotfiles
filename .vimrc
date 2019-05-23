@@ -42,9 +42,9 @@ filetype on
 
 "Colorscheme"
 set termguicolors
-let ayucolor="mirage"
+let ayucolor="dark"
 colorscheme ayu
-autocmd VimEnter * AirlineTheme ayu_mirage
+autocmd VimEnter * AirlineTheme ayu_dark
 
 "Use relative numbers and line numbers"
 set relativenumber
