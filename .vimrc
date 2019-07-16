@@ -16,7 +16,6 @@ Plugin 'VundleVim/Vundle.vim'
 
 "<--- Plugins --->"
 Plugin 'scrooloose/nerdtree'
-Plugin 'ayu-theme/ayu-vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'Yggdroot/indentLine'
@@ -42,9 +41,6 @@ filetype on
 
 "Colorscheme"
 set termguicolors
-let ayucolor="dark"
-colorscheme ayu
-autocmd VimEnter * AirlineTheme ayu_dark
 
 "Use relative numbers and line numbers"
 set relativenumber
