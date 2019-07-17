@@ -40,7 +40,7 @@ filetype plugin indent on    " required
 filetype on
 
 "Colorscheme"
-set termguicolors
+set background=dark
 
 "Use relative numbers and line numbers"
 set relativenumber

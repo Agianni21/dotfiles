@@ -6,13 +6,6 @@
 
 work_dir="$(pwd)"
 
-# Set nvim as default editor
-# For bash
-echo "export EDITOR=nvim" >> ${HOME}/.bashrc
-# For fish
-echo "set -X EDITOR nvim" >> ${HOME}/.config/fish/config.fish
-
-
 # Setup vim config (neovim)
 if [[ ! -d ~/.config/nvim ]]; then
     mkdir ~/.config/nvim
