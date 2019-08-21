@@ -17,8 +17,6 @@ Plugin 'VundleVim/Vundle.vim'
 "<--- Plugins --->"
 Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'Yggdroot/indentLine'
 "<---         --->"
 
 " All of your Plugins must be added before the following line
@@ -57,14 +55,3 @@ noremap <C-Left> <C-W><Left>
 noremap <C-Right> <C-W><Right>
 noremap <C-Up> <C-W><Up>
 noremap <C-Down> <C-W><Down>
-
-" Set visible whitespaces
-set list
-set lcs=tab:>-,eol:»
-
-" Indent line plugin config (TAB inserts 4 spaces, show | every 4 spaces)
-let g:indentLine_char_list = "|"
-set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
-
-"Set a line in line where cursor is
-set cursorline
