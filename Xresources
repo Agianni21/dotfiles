@@ -1,7 +1,7 @@
 ! special
-*.foreground:   #f1ebeb
-*.background:   #0a0a0a
-*.cursorColor:  #f1ebeb
+*.foreground:   #d9d9d9
+*.background:   #141413
+*.cursorColor:  #d9d9d9
 
 ! black
 *.color0:       #48483e
@@ -34,6 +34,7 @@
 ! white
 *.color7:       #acada1
 *.color15:      #cfd0c2
+
 
 URxvt.font: xft:DejaVu Sans Mono:pixelsize=12
 URxvt.scrollBar:	false
