@@ -46,3 +46,5 @@ URxvt.cursorBlink: true
 URxvt.cursorUnderline: false
 URxvt.urgentOnBell: true
 
+! Plugins
+URxvt.perl-ext-common: font-size
