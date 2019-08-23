@@ -17,6 +17,7 @@ Plugin 'VundleVim/Vundle.vim'
 "<--- Plugins --->"
 Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
+Plugin 'tpope/vim-fugitive'
 "<---         --->"
 
 " All of your Plugins must be added before the following line
@@ -39,6 +40,7 @@ filetype on
 
 "Colorscheme"
 set background=dark
+colorscheme monokai
 
 "Use relative numbers and line numbers"
 set relativenumber
